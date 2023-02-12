@@ -65,7 +65,6 @@ public partial class MyCollection : ContentPage
 
         foreach (var i in result)
         {
-            //fruits.Add(new Fruit() { FruitName = "Apple", FruitDescription = "An apple is an edible fruit produced by an apple tree (Malus domestica)." });
             todoitems.Add(new TodoItem() {name = i.name, avatar = i.avatar});
             
            Debug.WriteLine(i.name);
@@ -89,7 +88,6 @@ public partial class MyCollection : ContentPage
         //    List<string> it = serializer.Deserialize<List<String>>(reader);
         //    Debug.WriteLine(serializer);
         //}
-
 
         //Debug.WriteLine(httpResponse);
         //Debug.WriteLine(httpResponse);
